@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+.rowr{
+   	
+}
+.row1{
+    padding:30px;
+    background-color: gainsboro;
+}
+.searchbar1{
+    margin: auto;
+    border-radius: 50px;
+    border: none;
+    padding-left: 15px;
+    /* margin-top: 1rem; */
+}
+.search-icon{
+    transform: translateX(-2rem);
+    color: green;
+}
+.cart-details{
+    float: right;
+    padding: 5px 1.6rem;
+    border-radius: 50px;
+    border: none;
+}
+.cart{
+    color: green;
+}
+.pic{
+    text-align: center !important;
+}
+.logo{
+   /* padding-left: 25rem; */
+   margin-bottom: -6.5rem !important;
+   display: block;
+}
+.nav1{
+  
+    display: inline-block; 
+}
+.nav-link{
+    color: black;  
+    padding: 1rem 1.3rem;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.thover :hover{
+    background-color: green;
+}
