@@ -98,22 +98,90 @@ body{
   color: red;
   font-size: 20px;
 }
+.rowr >.col-lg-3,
+.col-xl-3{
+    padding-left:0 !important;
+ 
+}
+.rowr >.col-sm-12{
+    padding-left:7rem !important;
+    padding-bottom: 5px !important;
+}
+
 .row4{
-    padding: 3rem;
-    margin: auto;
+    padding: 3rem 2rem 2rem 6rem;
+    margin:0 auto;
+    display: inline-block;
 }
 .icon-bus{
     color: green;
     font-size: 1.4rem;
-    padding: 1.5rem;
+    padding: 1.5rem !important;
     border: dotted 2px rgb(129, 136, 129);
     border-radius: 50%;
-    float: left;
+    /* float: left; */
     margin:0px auto !important;
+    display: inline-block;
 
 }
 .icon-description{
-    float: left;
-    padding: .9rem;
+    /* float: left; */
+    padding: .9rem !important;
     color: gray;
+    display: inline-block;
+}
+.row5{
+    background-image: url(../images/ad1-1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1.7rem;
+}
+.orange-fruit{
+    padding-top: 10.5rem;
+}
+.btn-shop{
+    border: rgba(248, 248, 23, 0.925) 7px solid;
+    border-radius: 50px; 
+    background-color: green;
+    padding: .5rem 1.2rem;
+    color: white;
+    margin-bottom: 10.5rem !important;
+}
+.row6{
+    margin: 1.6rem;
+    /* padding: 0; */
+    display: flex;
+    flex-direction: column;
+}
+.item1{
+    background-image: url(../images/ad2.jpg);
+    background-position: center;
+    background-size: cover;
+    /* display: flex;
+    flex-direction: column; */
+    margin-bottom: 2rem;
+}
+.item2{
+    background-image: url(../images/ad3.jpg);
+}
+.row7{
+    background-image: url(../images/ad4.jpg);
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1.6rem;
+}
+.btn-shop2{
+    border: white 7px solid;
+    border-radius: 50px; 
+    background-color: transparent;
+    padding: .5rem 1.2rem;
+    color: white;
+    margin-bottom: 10.5rem !important;
+}
+.item-title{
+    margin-top: 8.5rem;
 }
