@@ -5,8 +5,10 @@
   padding: 0;
   box-sizing: inherit; 
 }
-.rowr{
-   	
+body{
+    font-size: .8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
 }
 .row1{
     padding:30px;
@@ -36,20 +38,82 @@
     text-align: center !important;
 }
 .logo{
-   /* padding-left: 25rem; */
-   margin-bottom: -6.5rem !important;
-   display: block;
+   padding-left: 25rem;
+   margin-bottom: -6.2rem !important;
+   display: inline-block;
 }
 .nav1{
-  
+    color: black !important;
     display: inline-block; 
+}
+.navbar-nav>li{
+    padding-left: 2.3rem;
+    font-weight: bold;
+    font-size: .8rem;
+    text-align: center;
 }
 .nav-link{
     color: black;  
-    padding: 1rem 1.3rem;
     text-transform: uppercase;
-    margin-top: 3rem;
+    margin-top: 4rem;
+    padding: 1rem 1.5rem;
 }
-.thover :hover{
+.navbar-nav>li :hover{
     background-color: green;
+    border-radius: 50px;
+    color: white;
+}
+.backfruitimg1{
+    background-image: url(../images/slide2.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+.backfruitimg2{
+    background-image: url(../images/slide1.jpg);
+}
+.fresh{
+    padding-top: 6rem;
+    padding-bottom: 0 !important;
+    font-size: 1.3rem;
+}
+.big-sale{
+    font-size: 5.6rem;
+    color: rgba(248, 248, 23, 0.925);
+    font-weight: bold;
+    font-style: italic;
+}
+.shop-now{
+    padding: .6rem 1.4rem;
+    border: rgba(248, 248, 23, 0.925) 7px solid;
+    background-color: transparent;
+    color: white;
+    margin-bottom: 8rem !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-image: none;
+  color: red;
+  font-size: 20px;
+}
+.row4{
+    padding: 3rem;
+    margin: auto;
+}
+.icon-bus{
+    color: green;
+    font-size: 1.4rem;
+    padding: 1.5rem;
+    border: dotted 2px rgb(129, 136, 129);
+    border-radius: 50%;
+    float: left;
+    margin:0px auto !important;
+
+}
+.icon-description{
+    float: left;
+    padding: .9rem;
+    color: gray;
 }
