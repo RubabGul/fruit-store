@@ -100,13 +100,12 @@ body{
 }
 .rowr >.col-lg-3,
 .col-xl-3{
-    padding-left:0 !important;
- 
+    padding-left: 2px !important;
 }
-.rowr >.col-sm-12{
+/* .rowr >.col-sm-12{
     padding-left:7rem !important;
     padding-bottom: 5px !important;
-}
+} */
 
 .row4{
     padding: 3rem 2rem 2rem 6rem;
@@ -116,16 +115,16 @@ body{
 .icon-bus{
     color: green;
     font-size: 1.4rem;
-    padding: 1.5rem !important;
+    padding: 1rem !important;
     border: dotted 2px rgb(129, 136, 129);
     border-radius: 50%;
-    /* float: left; */
+    float: left!important ;
     margin:0px auto !important;
-    display: inline-block;
+    display: inline-block !important;
 
 }
 .icon-description{
-    /* float: left; */
+    float: left;
     padding: .9rem !important;
     color: gray;
     display: inline-block;
@@ -134,9 +133,9 @@ body{
     background-image: url(../images/ad1-1.jpg);
     background-size: cover;
     background-position: center;
-    display: inline-block;
+    display: block;
     font-weight: bold;
-    margin: 1.7rem;
+    /* margin: 1.7rem; */
 }
 .orange-fruit{
     padding-top: 10.5rem;
@@ -150,10 +149,10 @@ body{
     margin-bottom: 10.5rem !important;
 }
 .row6{
-    margin: 1.6rem;
-    /* padding: 0; */
+    /* margin: 1.6rem 0; */
     display: flex;
     flex-direction: column;
+    /* padding: 0 !important; */
 }
 .item1{
     background-image: url(../images/ad2.jpg);
@@ -162,9 +161,12 @@ body{
     /* display: flex;
     flex-direction: column; */
     margin-bottom: 2rem;
+
 }
 .item2{
     background-image: url(../images/ad3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 .row7{
     background-image: url(../images/ad4.jpg);
@@ -172,7 +174,7 @@ body{
     background-position: center;
     display: inline-block;
     font-weight: bold;
-    margin: 1.6rem;
+    /* margin: 1.6rem; */
 }
 .btn-shop2{
     border: white 7px solid;
@@ -184,4 +186,33 @@ body{
 }
 .item-title{
     margin-top: 8.5rem;
+}
+.row-latest{
+    border: 1px solid gray;
+}
+.row8,
+.row9{
+    display: block;
+}
+.row8{
+    padding-left:1rem;
+}
+.latest-btn{
+    border:none;
+    margin-bottom: 0 !important;
+}
+.latest-des{
+    font-size: .9rem;
+}
+.footer{
+    background-color: rgb(48, 45, 45);
+    color: rgb(153, 147, 147);
+    padding-top: 4rem;
+}
+.about-des{
+    font-size: .9rem;
+}
+.follow{
+    padding-top: 6rem;
+    /* float: left; */
 }
