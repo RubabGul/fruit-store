@@ -214,5 +214,59 @@ body{
 }
 .follow{
     padding-top: 6rem;
-    /* float: left; */
+    float: left;
+    
 }
+.social-icons{
+    float: left;
+    padding-top: 5.5rem;
+    font-size: 2.1rem;
+    padding-left: 1rem;
+    overflow: hidden;
+    backface-visibility: hidden;
+}
+ .fb{
+    color: white;
+    background-color:  #3b5998;
+}
+.twitter{
+    color: rgb(53,155,237);
+    background-color:white;  
+     
+}
+.insta{
+    background-color:  white;
+  color: #ca1a4f;
+}
+.gmail{
+    background-color: white;
+    color: rgb(214, 66, 21)
+}
+.list >ul {
+    list-style: none;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+    line-height: 2rem;
+  }
+
+.list > ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: green;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1.4em;
+
+  }
+  .home-icon{
+      color: green;
+      float: left;
+      font-size: 1.2rem;
+  }
+  .payment{
+      float: left;
+  }
+  .paypal{
+      float: left;
+      font-size: 1.7rem;
+      color: rgb(235, 157, 157);
+  }
