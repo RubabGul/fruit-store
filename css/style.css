@@ -219,15 +219,16 @@ body{
 }
 .social-icons{
     float: left;
-    padding-top: 5.5rem;
-    font-size: 2.1rem;
-    padding-left: 1rem;
+    padding-top: 5.9rem;
+    /* font-size: 2.1rem; */
+    width: 35px;
+    padding-left: .5rem;
     overflow: hidden;
     backface-visibility: hidden;
 }
  .fb{
-    color: white;
-    background-color:  #3b5998;
+    background-color: white;
+    /* background-color:  #3b5998; */
 }
 .twitter{
     color: rgb(53,155,237);
@@ -235,7 +236,7 @@ body{
      
 }
 .insta{
-    background-color:  white;
+    /* background-color:  white; */
   color: #ca1a4f;
 }
 .gmail{
