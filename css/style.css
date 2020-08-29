@@ -302,7 +302,7 @@ body{
  @media (max-width:1100px){
     .logo{
         padding-left: 16rem;
-        padding-bottom: 2rem;
+        /* padding-bottom: 2rem; */
     }
     .icon-description{
         float: left;
@@ -347,7 +347,7 @@ body{
             height: 84vh !important;
     }
     .item1, .item2{
-        height: 40vh;
+        height: 39vh;
     }
     .item-title{
         margin-top: 2rem !important;
@@ -355,5 +355,72 @@ body{
     .orange-fruit{
         padding-top: 6rem;
     }
-  
+    .btn-shop{
+        padding: .3rem .7rem;
+    }
+    .btn-shop2{ 
+        padding: .3rem .7rem;
+    }
+    .item-title{
+        margin-top: 5.5rem;
+    }
+    .row8,
+    .row9{
+      
+    }
  }
+ @media (max-width:722px){
+    .logo{
+        padding-left: 4rem;
+    }
+ }
+ @media (max-width:700px){
+    .logo{
+        padding-left: 3rem;
+    }
+    .row4{
+        padding: 1.5rem;
+        margin-left:14rem;       
+    }
+ }
+ @media (max-width:618px){
+    .logo{
+        padding-left: 2rem;
+    }
+    .row4{
+        padding: 1.5rem;
+        margin-left:12rem;       
+    }
+}
+@media (max-width:583px){
+    .logo{
+        padding-left: 0;
+    }
+}
+@media (max-width:575px){
+    .row4{
+        padding: 1.5rem;
+        margin-left:10rem;       
+    }
+}
+@media (max-width:510px){
+    .logo{
+        padding-right: 2rem;
+    }
+    .row5, .row6 , .row7{
+    height: 84vh !important;
+    width: 70vh !important;
+    margin: 1rem 1rem 1rem 7rem;
+    }
+    .item1, .item2{
+    height: 39vh;
+    padding: .5rem;
+
+    }
+    .row6{
+        display: block;
+    content: "";
+    clear: both !important;
+    }
+
+}
