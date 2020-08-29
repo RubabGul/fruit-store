@@ -64,7 +64,7 @@ body{
     color: white;
 }
 .backfruitimg1{
-    background-image: url(../images/slide2.jpg);
+    background-image: url('../images/slide2.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -72,7 +72,7 @@ body{
     text-transform: uppercase;
 }
 .backfruitimg2{
-    background-image: url(../images/slide1.jpg);
+    background-image: url('../images/slide1.jpg');
 }
 .fresh{
     padding-top: 6rem;
