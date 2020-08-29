@@ -343,22 +343,17 @@ body{
         padding: 1.5rem;
         margin-left:16rem;       
     }
-    .row5{
-        display: block;
-        font-weight: bold;
-        /* margin: 1.7rem; */
+    .row5, .row6 , .row7{
+            height: 84vh !important;
+    }
+    .item1, .item2{
+        height: 40vh;
+    }
+    .item-title{
+        margin-top: 2rem !important;
     }
     .orange-fruit{
         padding-top: 6rem;
     }
-    .btn-shop{
-        margin-bottom: 0 !important;
-    }
-    .item1{
-        margin-bottom: 1rem;
-    
-    }
-    .btn-shop2{
-        margin-bottom: 0 !important;
-    }
+  
  }
