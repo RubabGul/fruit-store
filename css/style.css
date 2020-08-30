@@ -299,6 +299,11 @@ body{
         padding: .5rem !important;  
         }
  }
+ @media (max-width:1152px){
+    .social-icons{
+        width: 32px;
+    }
+ }
  @media (max-width:1100px){
     .logo{
         padding-left: 16rem;
@@ -318,15 +323,37 @@ body{
         margin-right: 2.4rem !important;  
         }
  }
- @media (max-width:980px){
+ @media (max-width:1015px){
+    .social-icons{
+        width: 30px;
+    }
+ }
+ @media (max-width:982px){
     .logo{
         padding-left: 13rem;
-     
+    }
+    .follow{
+        padding-top: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .social-icons{
+        padding-top: 1.5rem;
+    }
+    .row12{
+        margin-left: 6rem;
+    }
+    .payment{
+        margin-left: 6rem;
     }
  }
  @media (max-width:910px){
     .logo{
         padding-left: 10rem;
+    }
+ }
+ @media (max-width:800px){
+    .payment{
+        margin-left: 5rem;
     }
  }
  @media (max-width:822px){
@@ -364,9 +391,11 @@ body{
     .item-title{
         margin-top: 5.5rem;
     }
-    .row8,
-    .row9{
-      
+  
+ }
+ @media (max-width:800px){
+    .payment{
+        margin-left: 4rem;
     }
  }
  @media (max-width:722px){
@@ -382,6 +411,9 @@ body{
         padding: 1.5rem;
         margin-left:14rem;       
     }
+    .payment{
+        margin-left: 2.5rem;
+    }
  }
  @media (max-width:618px){
     .logo{
@@ -390,6 +422,9 @@ body{
     .row4{
         padding: 1.5rem;
         margin-left:12rem;       
+    }
+    .payment{
+        margin-left: 2rem;
     }
 }
 @media (max-width:583px){
@@ -402,25 +437,112 @@ body{
         padding: 1.5rem;
         margin-left:10rem;       
     }
+    .row5, .row6 , .row7{
+        height: 84vh !important;
+        width: 70vh !important;
+        margin: 1rem 1rem 1rem 4.5rem !important;
+    }
+    .item1, .item2{
+        /* clear: both !important; */
+        height: 39vh;
+        width: 109%;
+        padding: 0 15px;
+        margin: -10px 14px 0 -13px;
+    
+        }
+        .row7{
+            margin-top: 0 !important;
+        }
+        .item1{
+            margin-bottom: 35px  !important;
+        }
+        .foot-links{
+            margin-left: 7.5rem;
+        }
+        .follow{
+            padding-left: 3rem ;
+        }
+        .list{
+            padding-left: 11rem;
+        }
+        .row12{
+            margin-left: 2rem;
+        }
+        .payment{
+                margin-left: 3.5rem;
+        }   
 }
-@media (max-width:510px){
+@media (max-width:540px){
+        .foot-links{
+            margin-left: 6rem;
+        }
+        .follow{
+            padding-left: 3rem ;
+        }
+        .payment{
+                margin-left: 3rem;
+        }
+}
+@media (max-width:512px){
     .logo{
-        padding-right: 2rem;
+      margin-left: -20px !important;
     }
     .row5, .row6 , .row7{
     height: 84vh !important;
     width: 70vh !important;
-    margin: 1rem 1rem 1rem 7rem;
-    }
-    .item1, .item2{
+    margin: 1rem 1rem 1rem 4.5rem !important;
+}
+.item1, .item2{
+    /* clear: both !important; */
     height: 39vh;
-    padding: .5rem;
+    width: 109%;
+    padding: 0 15px;
+    margin: -10px 14px 0 -13px;
 
     }
-    .row6{
-        display: block;
-    content: "";
-    clear: both !important;
+    .row7{
+        margin-top: 0 !important;
     }
-
+    .item1{
+        margin-bottom: 35px  !important;
+    }
+}
+@media (max-width:497px){
+    .logo{
+        margin-right: 25px !important;
+      }
+      .big-sale{
+        font-size: 4.5rem;
+      }
+      .foot-links{
+        margin-left: 4rem;
+    }
+    .follow{
+        padding-left: 3rem ;
+    }
+    .payment{
+            margin-left: 2rem;
+    }
+    .list{
+        padding-left: 9rem;
+    }
+}
+@media (max-width:494px){
+    .logo{
+        margin-left: -15px !important;
+      }
+}
+@media (max-width:450px){
+      .foot-links{
+        margin-left: 2.5rem;
+    }
+    .follow{
+        padding-left: 2rem ;
+    }
+    .payment{
+            margin-left: 1rem;
+    }
+    .list{
+        padding-left: 7rem;
+    }
 }
